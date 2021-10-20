@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.3rem;
+}
+
 .App {
   text-align: center;
 }
@@ -14,14 +26,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-color: hsl(217, 19%, 35%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
@@ -35,4 +48,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+.article {
+  width: 730px;
+  height: 280px;
+}
+.article-img {
+  width: 346px;
+}
+.article-img img {
+  width: 346px;
+  height: 280px;
+  border-radius: 10px 0 0 10px;
+  background-image: ;
+}
+.article-text {
+  width: 384px;
+  padding: 3rem;
+  text-align: left;
+  border-radius: 0 10px 10px 0;
+  background-color: #fff;
+}
+.article-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.article-text p {
+  font-size: 1.2rem;
+}
+.signature {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.signature img {
+  width: 40px;
+  border-radius: 50%;
+}
+.signature-description {
+  border: 1px solid green;
+  width: 230px;
+  font-size: 1.3rem;
+}
+.signature-description span {
+  font-weight: bold;
+}
+.signature-arrow img {
+  width: 17px;
+  border-radius: 50%;
 }
