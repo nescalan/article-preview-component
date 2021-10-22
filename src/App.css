@@ -60,7 +60,6 @@ body {
   width: 346px;
   height: 280px;
   border-radius: 10px 0 0 10px;
-  background-image: ;
 }
 .article-text {
   width: 384px;
@@ -76,8 +75,12 @@ body {
 .article-text p {
   font-size: 1.2rem;
 }
+.line-height {
+  line-height: 2.5rem;
+}
+
 .signature {
-  border: 1px solid red;
+  margin-top: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,7 +90,6 @@ body {
   border-radius: 50%;
 }
 .signature-description {
-  border: 1px solid green;
   width: 230px;
   font-size: 1.3rem;
 }
@@ -95,6 +97,7 @@ body {
   font-weight: bold;
 }
 .signature-arrow img {
-  width: 17px;
-  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #e5e9f6;
 }
